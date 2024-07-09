@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="tampilanAwal">
+      <h1 class="tulisanAwal">Selamat Datang</h1>
+      <p style="color: rgb(152, 152, 152)">Silahkan Isi Nama Kamu</p>
+      <br />
+
+      
+
+      <input type="text" placeholder="Masukkan Nama" id="nama" />
+      <input type="number" name="" id="absen" placeholder="isi dengan angka
+      " min="1">
+      <button id="btnLogin" onclick="starQuiz()">Play Game</button>
+    </div>
+    <br />
+    <div id="quizWindow" class="hidden">
+      <h1 id="pertanyaan"></h1>
+      <br />
+
+      <input type="radio" name="pilih" data-id="0" id="pilihan1" />
+      <label for="pilihan1" id="text1"></label>
+
+      <input type="radio" name="pilih" data-id="1" id="pilihan2" />
+      <label for="pilihan2" id="text2"></label>
+
+      <input type="radio" name="pilih" data-id="2" id="pilihan3" />
+      <label for="pilihan3" id="text3"></label>
+
+      <input type="radio" name="pilih" data-id="3" id="pilihan4" />
+      <label for="pilihan4" id="text4"></label>
+      <div>
+        <br />
+        <button onclick="lanjutSoal()">Lanjut</button>
+      </div>
+    </div>
+    <div id="tampilanAkhir" class="hidden">
+      <h1>Quiz Selesai</h1>
+      <h1>SERTIFIKAT</h1>
+      <h2 id="namaText1"></h2>
+      <h2 id="namaText2"></h2>
+      <h2 id="namaText3"></h2>
+      <div id="gambar"></div>
+    </div>
+
+  
+     
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
