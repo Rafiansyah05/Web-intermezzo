@@ -1,6 +1,6 @@
 const soal = [
   {
-    question: '	Siapa dikelas yang dijuluki sebagai raja tidur? ',
+    question: '	Siapa dikelas yang paling sering tidur tidur? ',
     answer: ['nazwa', 'jelin', 'dede', 'mikel'],
   },
   {
